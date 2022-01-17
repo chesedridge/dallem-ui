@@ -18,5 +18,7 @@
       "@src/*": ["src/*"],
       "@stories/*": ["stories/*"]
     }
-  }
+  },
+  "include": ["src"],
+  "exclude": ["stories"]
 }

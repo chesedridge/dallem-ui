@@ -1,24 +1,54 @@
 {
   "name": "dallem-ui",
+  "description": "Dallem Design System & Storybook",
+  "version": "1.1.1",
+  "main": "index.ts",
+  "module": "dist/index.ts",
+  "types": "dist/types/index.d.ts",
   "packageManager": "yarn@3.1.1",
   "devDependencies": {
     "@babel/core": "^7.16.7",
+    "@babel/plugin-proposal-private-property-in-object": "^7.16.7",
     "@mdx-js/react": "^1.6.22",
     "@storybook/addon-actions": "^6.4.12",
     "@storybook/addon-docs": "^6.4.12",
     "@storybook/addon-essentials": "^6.4.12",
     "@storybook/addon-links": "^6.4.12",
     "@storybook/react": "^6.4.12",
+    "@svgr/rollup": "^6.2.0",
     "babel-loader": "^8.2.3",
+    "babel-preset-react-app": "^10.0.1",
     "react-docgen-typescript": "^2.2.2",
+    "rollup": "^2.64.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-url": "^3.0.1",
     "typescript": "^4.5.4"
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "build": "rollup -c",
+    "build:types": "tsc --emitDeclarationOnly"
   },
   "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
-  }
+  },
+  "peerDependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "repository": "https://github.com/chesedridge/dallem-ui.git",
+  "author": "chesedridge-dev",
+  "files": [
+    "/dist"
+  ],
+  "license": "MIT"
 }
