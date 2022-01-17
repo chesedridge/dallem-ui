@@ -3512,7 +3512,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*":
+"@types/react@npm:*, @types/react@npm:^17.0.38":
   version: 17.0.38
   resolution: "@types/react@npm:17.0.38"
   dependencies:
@@ -5940,6 +5940,7 @@ __metadata:
     "@storybook/addon-links": ^6.4.12
     "@storybook/react": ^6.4.12
     "@svgr/rollup": ^6.2.0
+    "@types/react": ^17.0.38
     "@types/styled-components": ^5.1.20
     "@typescript-eslint/eslint-plugin": latest
     babel-loader: ^8.2.3
