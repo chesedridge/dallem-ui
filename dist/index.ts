@@ -1,4 +1,4 @@
-import { Global, css } from '@emotion/react';
+import { createGlobalStyle, css } from 'styled-components';
 
 function _taggedTemplateLiteral(strings, raw) {
   if (!raw) {
@@ -13,9 +13,7 @@ function _taggedTemplateLiteral(strings, raw) {
 }
 
 var _templateObject$1;
-var GlobalStyle = /*#__PURE__*/React.createElement(Global, {
-  styles: css(_templateObject$1 || (_templateObject$1 = _taggedTemplateLiteral(["\n      @import url(\"https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css\");\n      html {\n        font-size: 12px;\n      }\n      body {\n        font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui,\n          Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Apple SD Gothic Neo\",\n          \"Noto Sans KR\", \"Malgun Gothic\", sans-serif;\n      }\n      @media (min-width: 1024px) {\n        html {\n          font-size: 16px;\n        }\n      }\n    "])))
-});
+var GlobalStyle = createGlobalStyle(_templateObject$1 || (_templateObject$1 = _taggedTemplateLiteral(["\n  @import url(\"https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css\");\n  html {\n    font-size: 12px;\n  }\n  body {\n    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, \"Helvetica Neue\", \"Segoe UI\", \"Apple SD Gothic Neo\", \"Noto Sans KR\", \"Malgun Gothic\", sans-serif;\n  }\n  @media (min-width: 1024px) {\n    html {\n      font-size: 16px;\n    }\n  }\n"])));
 
 var color = {
   info: {

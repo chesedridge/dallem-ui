@@ -1,1 +1,1 @@
-export declare const GlobalStyle: import("@emotion/react/jsx-runtime").JSX.Element;
+export declare const GlobalStyle: import("styled-components").GlobalStyleComponent<{}, import("styled-components").DefaultTheme>;
