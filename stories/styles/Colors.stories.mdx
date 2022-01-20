@@ -1,0 +1,89 @@
+import { Meta } from "@storybook/addon-docs";
+import { color } from "../../src/styles/colors";
+import Colors from "../example/styles/Colors.example";
+
+<Meta title="styles/Colors" component={color} />
+
+# Color Assets
+
+마지막 업데이트일: 2022년 1월 19일 KST
+
+## 개요
+
+달램 프로덕트에 사용되는 컬러를 모아 둔 Object입니다.
+
+## 사용
+
+달램 컬러가 필요한 컴포넌트에 삽입하여 사용합니다. <br />
+아래는 **Sherbet 컬러(바리에이션 500)**을 불러오는 예시입니다.
+
+```
+import { color } from "dallem-ui";
+
+const MyConponent = () => {
+    const Sherbet = styled.div`
+        color: ${color.sherbet[500]}
+    `
+    return <Sherbet>샤벳 500 컬러</Sherbet>;
+};
+```
+
+오브젝트 내에 존재하는 값은 다음과 같습니다.
+
+### Info
+
+<Colors color={color.info} />
+
+### Safe
+
+<Colors color={color.safe} />
+
+### Danger
+
+<Colors color={color.danger} />
+
+### Button
+
+<Colors color={color.button} />
+
+### Oyster Pink
+
+<Colors color={color.oysterPink} />
+
+### harp
+
+<Colors color={color.harp} />
+
+### Mood Mist
+
+<Colors color={color.moodMist} />
+
+### Sunset
+
+<Colors color={color.sunset} />
+
+### Fantasy
+
+<Colors color={color.fantasy} />
+
+### River Bed
+
+<Colors color={color.riverBed} />
+
+### Sherbet
+
+<Colors color={color.sherbet} />
+
+### Red
+
+<Colors color={color.red} />
+
+### Blue
+
+<Colors color={color.blue} />
+
+### Greyscale
+
+<Colors color={color.greyscale} />
+
+&copy; 2022, Chesedridge Inc. All Right Reserved.

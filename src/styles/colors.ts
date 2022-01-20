@@ -43,7 +43,6 @@ export const color = {
     800: "#003985",
     900: "#00275A",
   },
-
   oysterPink: {
     100: "#FFFBFA",
     200: "#FFF8F6",
