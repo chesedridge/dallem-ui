@@ -1,7 +1,7 @@
 version: "3"
 
 services:
-  server:
+  dallem-ui-prod:
     image: 094190377405.dkr.ecr.ap-northeast-2.amazonaws.com/dallem-ui:latest
     restart: always
     container_name: dallem-ui-prod
