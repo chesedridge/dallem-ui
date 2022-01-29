@@ -1,0 +1,16 @@
+version: 0.0
+os: linux
+files:
+  - source: /docker-compose.prod.yml
+    destination: /opt/docker/dallem-ui/prod
+hooks:
+  ApplicationStop:
+    - location: timestamp.sh
+  BeforeInstall:
+    - location: timestamp.sh
+  AfterInstall:
+    - location: prod-deploy.sh
+  ApplicationStart:
+    - location: timestamp.sh
+  ValidateService:
+    - location: local-docker-gc.sh

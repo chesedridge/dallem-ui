@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  server:
+    image: 094190377405.dkr.ecr.ap-northeast-2.amazonaws.com/dallem-ui:latest
+    restart: always
+    container_name: dallem-ui-prod
+    ports:
+      - "8900:6006"
+    command: yarn storybook
