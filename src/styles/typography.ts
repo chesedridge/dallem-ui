@@ -76,7 +76,6 @@ export const Text = {
     font-size: 1.4rem;
     line-height: 1.8rem;
     @media (max-width: 920px) {
-      font-size: 1.4rem;
       line-height: 1.2rem;
       font-weight: 700;
     }
