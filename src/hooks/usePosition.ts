@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export function useTop() {
+export function usePosition() {
   const [position, setPosition] = useState(0);
 
   useEffect(() => {
