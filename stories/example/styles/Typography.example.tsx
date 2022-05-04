@@ -82,7 +82,7 @@ const MobileText = {
   `,
   Caption2: styled.p`
     font-size: 1.4rem;
-    line-height: 1.2rem;
+    line-height: 1.4;
     font-weight: 700;
   `,
   Button: styled.p`
@@ -183,7 +183,7 @@ export default function TypoExample({ mobile }) {
       <MobileText.Caption2>
         Caption2
         <br />
-        Bold / Size: 1.4rem / Height: 1.2rem
+        Bold / Size: 1.4rem / Height: 1.4 (140%)
       </MobileText.Caption2>
       <MobileText.Button>
         Button

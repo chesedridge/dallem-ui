@@ -1,0 +1,29 @@
+import { Meta } from "@storybook/addon-docs";
+
+<Meta title="hooks/usePosition" />
+
+# usePosition
+
+마지막 업데이트일: 2022년 5월 3일 KST
+
+## 개요
+
+usePosition은 현재 페이지의 위치를 확인하는 Hooks입니다.
+
+## 사용
+
+현재 페이지의 위치를 확인해야 하는 컴포넌트에 삽입하여 사용합니다.<br/>
+아래는 현재 위치를 불러오는 예시입니다.
+
+```
+import { usePosition } from "dallem-ui";
+
+const MyComponent = () => {
+    const position = usePosition();
+    ...
+};
+```
+
+`number` 값으로 리턴됩니다.
+
+&copy; 2022, Chesedridge Inc. All Right Reserved.

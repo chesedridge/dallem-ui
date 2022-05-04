@@ -1,17 +1,17 @@
 import { useState, useEffect } from "react";
 
 export function useTop() {
-  const [top, setTop] = useState(true);
+  const [position, setPosition] = useState(0);
 
   useEffect(() => {
     function handleScroll() {
-      const position = window.pageYOffset;
-      setTop(Boolean(!position));
+      const offsetY = window.pageYOffset;
+      setPosition(offsetY);
     }
     window.addEventListener("scroll", handleScroll, { passive: true });
     handleScroll();
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  return top;
+  return position;
 }

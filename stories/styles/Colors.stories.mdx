@@ -1,12 +1,12 @@
 import { Meta } from "@storybook/addon-docs";
-import { color } from "../../src/styles/colors";
+import { colors } from "../../src/styles/colors";
 import Colors from "../example/styles/Colors.example";
 
-<Meta title="styles/Colors" component={color} />
+<Meta title="styles/Colors" component={colors} />
 
 # Color Assets
 
-마지막 업데이트일: 2022년 1월 19일 KST
+마지막 업데이트일: 2022년 5월 3일 KST
 
 ## 개요
 
@@ -18,11 +18,11 @@ import Colors from "../example/styles/Colors.example";
 아래는 **Sherbet 컬러(바리에이션 500)**을 불러오는 예시입니다.
 
 ```
-import { color } from "dallem-ui";
+import { colors } from "dallem-ui";
 
 const MyConponent = () => {
     const Sherbet = styled.div`
-        color: ${color.sherbet[500]}
+        color: ${colors.sherbet[500]}
     `
     return <Sherbet>샤벳 500 컬러</Sherbet>;
 };
@@ -30,60 +30,28 @@ const MyConponent = () => {
 
 오브젝트 내에 존재하는 값은 다음과 같습니다.
 
-### Info
-
-<Colors color={color.info} />
-
-### Safe
-
-<Colors color={color.safe} />
-
-### Danger
-
-<Colors color={color.danger} />
-
-### Button
-
-<Colors color={color.button} />
-
-### Oyster Pink
-
-<Colors color={color.oysterPink} />
-
-### harp
-
-<Colors color={color.harp} />
-
-### Mood Mist
-
-<Colors color={color.moodMist} />
-
-### Sunset
-
-<Colors color={color.sunset} />
-
-### Fantasy
-
-<Colors color={color.fantasy} />
-
-### River Bed
-
-<Colors color={color.riverBed} />
-
 ### Sherbet
 
-<Colors color={color.sherbet} />
+<Colors color={colors.sherbet} />
 
 ### Red
 
-<Colors color={color.red} />
+<Colors color={colors.red} />
+
+### Orange
+
+<Colors color={colors.orange} />
 
 ### Blue
 
-<Colors color={color.blue} />
+<Colors color={colors.blue} />
 
-### Greyscale
+### River Bed
 
-<Colors color={color.greyscale} />
+<Colors color={colors.riverBed} />
+
+### Grayscale
+
+<Colors color={colors.grayscale} />
 
 &copy; 2022, Chesedridge Inc. All Right Reserved.
