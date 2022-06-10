@@ -2017,7 +2017,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/prettier@npm:^2":
+"@types/prettier@npm:latest":
   version: 2.6.3
   resolution: "@types/prettier@npm:2.6.3"
   checksum: e1836699ca189fff6d2a73dc22e028b6a6f693ed1180d5998ac29fa197caf8f85aa92cb38db642e4a370e616b451cb5722ad2395dab11c78e025a1455f37d1f0
@@ -2119,7 +2119,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^5.27.1":
+"@typescript-eslint/parser@npm:latest":
   version: 5.27.1
   resolution: "@typescript-eslint/parser@npm:5.27.1"
   dependencies:
@@ -2973,23 +2973,23 @@ __metadata:
     "@babel/core": latest
     "@babel/plugin-proposal-private-property-in-object": latest
     "@svgr/rollup": latest
-    "@types/prettier": ^2
+    "@types/prettier": latest
     "@types/react": latest
     "@types/styled-components": latest
     "@typescript-eslint/eslint-plugin": latest
-    "@typescript-eslint/parser": ^5.27.1
+    "@typescript-eslint/parser": latest
     babel-loader: latest
     babel-plugin-styled-components: latest
     babel-preset-react-app: latest
     eslint: latest
     eslint-config-airbnb: latest
-    eslint-config-prettier: ^8.5.0
-    eslint-plugin-better-styled-components: ^1.1.2
-    eslint-plugin-import: ^2.26.0
-    eslint-plugin-jsx-a11y: ^6.5.1
-    eslint-plugin-prettier: ^4.0.0
+    eslint-config-prettier: latest
+    eslint-plugin-better-styled-components: latest
+    eslint-plugin-import: latest
+    eslint-plugin-jsx-a11y: latest
+    eslint-plugin-prettier: latest
     eslint-plugin-react: latest
-    prettier: ^2.6.2
+    prettier: latest
     react: latest
     react-dom: latest
     react-is: latest
@@ -3382,7 +3382,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^8.5.0":
+"eslint-config-prettier@npm:latest":
   version: 8.5.0
   resolution: "eslint-config-prettier@npm:8.5.0"
   peerDependencies:
@@ -3413,7 +3413,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-better-styled-components@npm:^1.1.2":
+"eslint-plugin-better-styled-components@npm:latest":
   version: 1.1.2
   resolution: "eslint-plugin-better-styled-components@npm:1.1.2"
   dependencies:
@@ -3423,7 +3423,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:^2.26.0":
+"eslint-plugin-import@npm:latest":
   version: 2.26.0
   resolution: "eslint-plugin-import@npm:2.26.0"
   dependencies:
@@ -3446,7 +3446,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jsx-a11y@npm:^6.5.1":
+"eslint-plugin-jsx-a11y@npm:latest":
   version: 6.5.1
   resolution: "eslint-plugin-jsx-a11y@npm:6.5.1"
   dependencies:
@@ -3468,7 +3468,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:^4.0.0":
+"eslint-plugin-prettier@npm:latest":
   version: 4.0.0
   resolution: "eslint-plugin-prettier@npm:4.0.0"
   dependencies:
@@ -5123,7 +5123,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.6.2":
+"prettier@npm:latest":
   version: 2.6.2
   resolution: "prettier@npm:2.6.2"
   bin:

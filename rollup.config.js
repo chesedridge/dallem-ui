@@ -1,9 +1,9 @@
 import resolve from "rollup-plugin-node-resolve";
 import babel from "rollup-plugin-babel";
-import pkg from "./package.json";
 import svgr from "@svgr/rollup";
 import url from "rollup-plugin-url";
 import peerDepsExternal from "rollup-plugin-peer-deps-external";
+import pkg from "./package.json";
 
 const extensions = [".js", ".ts", ".tsx"];
 
