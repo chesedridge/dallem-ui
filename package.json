@@ -1,7 +1,7 @@
 {
   "name": "dallem-ui",
   "description": "Dallem Design System & Storybook",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "main": "index.ts",
   "module": "dist/index.ts",
   "types": "dist/types/index.d.ts",
