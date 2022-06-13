@@ -17,11 +17,9 @@ export const GlobalStyle = createGlobalStyle`
   figure, figcaption, footer, header, hgroup, 
   menu, nav, output, ruby, section, summary,
   time, mark, audio, video {
-    font-size: 100%;
     margin: 0;
     border: 0;
     padding: 0;
-    font: inherit;
     vertical-align: baseline;
   }
   article, aside, details, figcaption, figure,
@@ -54,7 +52,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Material Icons';
     font-style: normal;
     font-weight: 400;
-    src: url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/woff2/Material-Icons.woff2') format('woff2');
+    src: url('https://fonts.gstatic.com/s/materialicons/v129/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2') format('woff2');
   }
 
     // Import Pretendard
