@@ -1,13 +1,13 @@
 {
   "name": "dallem-ui",
   "description": "Dallem Design System & Storybook",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "main": "index.ts",
   "module": "dist/index.ts",
   "types": "dist/types/index.d.ts",
   "packageManager": "yarn@3.2.1",
   "scripts": {
-    "build": "tsc --emitDeclarationOnly && rollup -c"
+    "publish": "tsc --emitDeclarationOnly && rollup -c && yarn npm publish"
   },
   "dependencies": {
     "react": "latest",
